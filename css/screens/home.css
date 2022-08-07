@@ -1,0 +1,13 @@
+#welcome{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+}
+
+#welcome__text{
+    font-size: 40px;
+    font-weight: 900;
+    box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
+}
