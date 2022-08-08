@@ -11,3 +11,21 @@
     box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.3);
     background-color: rgba(0,0,0,0.3);
 }
+
+@media all and (max-width : 500px){
+    #welcome__text{
+        font-size: 30px;
+        font-weight: 900;
+        box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.3);
+        background-color: rgba(0,0,0,0.3);
+    }
+}
+
+@media all and (max-width : 400px){
+    #welcome__text{
+        font-size: 20px;
+        font-weight: 900;
+        box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.3);
+        background-color: rgba(0,0,0,0.3);
+    }
+}
