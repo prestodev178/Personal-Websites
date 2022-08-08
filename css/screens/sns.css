@@ -7,36 +7,15 @@
     position: relative;
     left: -30px;
 }
-
-.sns__empty{
-    width: 200px;
-    height: 200px;
-    border: 2px solid rgba(0,0,0,0.2);
-}
-
-
 .sns__section{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 95vh;
+    position: relative;
+    left: 10px;
 }
 
-.sns__empty__text{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-}
-.sns__tstory{
-    position: relative;
-    left: 15px;
-}
-.sns__github{
-    position: relative;
-    left: 17px;
-}
 .sns_cursor:hover{
     will-change: transform;
     animation: bigsmall 0.5s ease-in-out forwards;
@@ -49,5 +28,22 @@
     to{
         transform: scale(1.2)
         
+    }
+}
+
+@media all and (max-width : 500px){
+    .sns_cursor img{
+        height: 100px;
+        width: 100px;
+    }
+    .sns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -5px;
+    }
+    .sns__section:first-child{
+        margin-bottom: -100px;
     }
 }
